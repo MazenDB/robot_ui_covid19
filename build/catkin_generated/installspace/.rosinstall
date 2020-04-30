@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/mazen/catkin_ws_covid19_robot/install/setup.sh

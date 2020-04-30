@@ -1,0 +1,8 @@
+prefix=/home/mazen/catkin_ws_covid19_robot/devel
+
+Name: robot_ui
+Description: Description of robot_ui
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

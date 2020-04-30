@@ -1,0 +1,2 @@
+robot_ui
+-DCATKIN_DEVEL_PREFIX=/home/mazen/catkin_ws_covid19_robot/devel -DCMAKE_INSTALL_PREFIX=/home/mazen/catkin_ws_covid19_robot/install -G Unix Makefiles
