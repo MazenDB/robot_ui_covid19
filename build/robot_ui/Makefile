@@ -422,6 +422,33 @@ robot_ui_node_autogen/fast:
 	cd /home/mazen/catkin_ws_covid19_robot/build && $(MAKE) -f robot_ui/CMakeFiles/robot_ui_node_autogen.dir/build.make robot_ui/CMakeFiles/robot_ui_node_autogen.dir/build
 .PHONY : robot_ui_node_autogen/fast
 
+qt_ui_ros/hellothread.o: qt_ui_ros/hellothread.cpp.o
+
+.PHONY : qt_ui_ros/hellothread.o
+
+# target to build an object file
+qt_ui_ros/hellothread.cpp.o:
+	cd /home/mazen/catkin_ws_covid19_robot/build && $(MAKE) -f robot_ui/CMakeFiles/robot_ui_node.dir/build.make robot_ui/CMakeFiles/robot_ui_node.dir/qt_ui_ros/hellothread.cpp.o
+.PHONY : qt_ui_ros/hellothread.cpp.o
+
+qt_ui_ros/hellothread.i: qt_ui_ros/hellothread.cpp.i
+
+.PHONY : qt_ui_ros/hellothread.i
+
+# target to preprocess a source file
+qt_ui_ros/hellothread.cpp.i:
+	cd /home/mazen/catkin_ws_covid19_robot/build && $(MAKE) -f robot_ui/CMakeFiles/robot_ui_node.dir/build.make robot_ui/CMakeFiles/robot_ui_node.dir/qt_ui_ros/hellothread.cpp.i
+.PHONY : qt_ui_ros/hellothread.cpp.i
+
+qt_ui_ros/hellothread.s: qt_ui_ros/hellothread.cpp.s
+
+.PHONY : qt_ui_ros/hellothread.s
+
+# target to generate assembly for a file
+qt_ui_ros/hellothread.cpp.s:
+	cd /home/mazen/catkin_ws_covid19_robot/build && $(MAKE) -f robot_ui/CMakeFiles/robot_ui_node.dir/build.make robot_ui/CMakeFiles/robot_ui_node.dir/qt_ui_ros/hellothread.cpp.s
+.PHONY : qt_ui_ros/hellothread.cpp.s
+
 qt_ui_ros/main.o: qt_ui_ros/main.cpp.o
 
 .PHONY : qt_ui_ros/main.o
@@ -560,6 +587,9 @@ help:
 	@echo "... roscpp_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... robot_ui_node_autogen"
+	@echo "... qt_ui_ros/hellothread.o"
+	@echo "... qt_ui_ros/hellothread.i"
+	@echo "... qt_ui_ros/hellothread.s"
 	@echo "... qt_ui_ros/main.o"
 	@echo "... qt_ui_ros/main.i"
 	@echo "... qt_ui_ros/main.s"

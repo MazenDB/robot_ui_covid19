@@ -7,8 +7,8 @@ set(AM_CMAKE_CURRENT_SOURCE_DIR "/home/mazen/catkin_ws_covid19_robot/src/robot_u
 set(AM_CMAKE_CURRENT_BINARY_DIR "/home/mazen/catkin_ws_covid19_robot/build/robot_ui/")
 set(AM_CMAKE_INCLUDE_DIRECTORIES_PROJECT_BEFORE "")
 set(AM_BUILD_DIR "/home/mazen/catkin_ws_covid19_robot/build/robot_ui/robot_ui_node_autogen")
-set(AM_SOURCES "/home/mazen/catkin_ws_covid19_robot/src/robot_ui/qt_ui_ros/main.cpp;/home/mazen/catkin_ws_covid19_robot/src/robot_ui/qt_ui_ros/mainwindow.cpp")
-set(AM_HEADERS "/home/mazen/catkin_ws_covid19_robot/src/robot_ui/qt_ui_ros/mainwindow.h")
+set(AM_SOURCES "/home/mazen/catkin_ws_covid19_robot/src/robot_ui/qt_ui_ros/hellothread.cpp;/home/mazen/catkin_ws_covid19_robot/src/robot_ui/qt_ui_ros/main.cpp;/home/mazen/catkin_ws_covid19_robot/src/robot_ui/qt_ui_ros/mainwindow.cpp")
+set(AM_HEADERS "/home/mazen/catkin_ws_covid19_robot/src/robot_ui/qt_ui_ros/hellothread.h;/home/mazen/catkin_ws_covid19_robot/src/robot_ui/qt_ui_ros/mainwindow.h")
 # Qt environment
 set(AM_QT_VERSION_MAJOR "5")
 set(AM_QT_VERSION_MINOR "9")

@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/robot_ui_node_autogen.dir/AutogenOldSettings.cmake"
   "CMakeFiles/robot_ui_node.dir/qt_ui_ros/mainwindow.cpp.o"
   "CMakeFiles/robot_ui_node.dir/qt_ui_ros/main.cpp.o"
+  "CMakeFiles/robot_ui_node.dir/qt_ui_ros/hellothread.cpp.o"
   "CMakeFiles/robot_ui_node.dir/robot_ui_node_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/robot_ui_node.dir/robot_ui_node_autogen/MZE7F2ZD3O/qrc_resources.cpp.o"
   "/home/mazen/catkin_ws_covid19_robot/devel/lib/robot_ui/robot_ui_node.pdb"

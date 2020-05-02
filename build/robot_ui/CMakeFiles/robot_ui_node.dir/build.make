@@ -105,9 +105,33 @@ robot_ui/CMakeFiles/robot_ui_node.dir/qt_ui_ros/main.cpp.o.provides: robot_ui/CM
 robot_ui/CMakeFiles/robot_ui_node.dir/qt_ui_ros/main.cpp.o.provides.build: robot_ui/CMakeFiles/robot_ui_node.dir/qt_ui_ros/main.cpp.o
 
 
+robot_ui/CMakeFiles/robot_ui_node.dir/qt_ui_ros/hellothread.cpp.o: robot_ui/CMakeFiles/robot_ui_node.dir/flags.make
+robot_ui/CMakeFiles/robot_ui_node.dir/qt_ui_ros/hellothread.cpp.o: /home/mazen/catkin_ws_covid19_robot/src/robot_ui/qt_ui_ros/hellothread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mazen/catkin_ws_covid19_robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object robot_ui/CMakeFiles/robot_ui_node.dir/qt_ui_ros/hellothread.cpp.o"
+	cd /home/mazen/catkin_ws_covid19_robot/build/robot_ui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robot_ui_node.dir/qt_ui_ros/hellothread.cpp.o -c /home/mazen/catkin_ws_covid19_robot/src/robot_ui/qt_ui_ros/hellothread.cpp
+
+robot_ui/CMakeFiles/robot_ui_node.dir/qt_ui_ros/hellothread.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robot_ui_node.dir/qt_ui_ros/hellothread.cpp.i"
+	cd /home/mazen/catkin_ws_covid19_robot/build/robot_ui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mazen/catkin_ws_covid19_robot/src/robot_ui/qt_ui_ros/hellothread.cpp > CMakeFiles/robot_ui_node.dir/qt_ui_ros/hellothread.cpp.i
+
+robot_ui/CMakeFiles/robot_ui_node.dir/qt_ui_ros/hellothread.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robot_ui_node.dir/qt_ui_ros/hellothread.cpp.s"
+	cd /home/mazen/catkin_ws_covid19_robot/build/robot_ui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mazen/catkin_ws_covid19_robot/src/robot_ui/qt_ui_ros/hellothread.cpp -o CMakeFiles/robot_ui_node.dir/qt_ui_ros/hellothread.cpp.s
+
+robot_ui/CMakeFiles/robot_ui_node.dir/qt_ui_ros/hellothread.cpp.o.requires:
+
+.PHONY : robot_ui/CMakeFiles/robot_ui_node.dir/qt_ui_ros/hellothread.cpp.o.requires
+
+robot_ui/CMakeFiles/robot_ui_node.dir/qt_ui_ros/hellothread.cpp.o.provides: robot_ui/CMakeFiles/robot_ui_node.dir/qt_ui_ros/hellothread.cpp.o.requires
+	$(MAKE) -f robot_ui/CMakeFiles/robot_ui_node.dir/build.make robot_ui/CMakeFiles/robot_ui_node.dir/qt_ui_ros/hellothread.cpp.o.provides.build
+.PHONY : robot_ui/CMakeFiles/robot_ui_node.dir/qt_ui_ros/hellothread.cpp.o.provides
+
+robot_ui/CMakeFiles/robot_ui_node.dir/qt_ui_ros/hellothread.cpp.o.provides.build: robot_ui/CMakeFiles/robot_ui_node.dir/qt_ui_ros/hellothread.cpp.o
+
+
 robot_ui/CMakeFiles/robot_ui_node.dir/robot_ui_node_autogen/mocs_compilation.cpp.o: robot_ui/CMakeFiles/robot_ui_node.dir/flags.make
 robot_ui/CMakeFiles/robot_ui_node.dir/robot_ui_node_autogen/mocs_compilation.cpp.o: robot_ui/robot_ui_node_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mazen/catkin_ws_covid19_robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object robot_ui/CMakeFiles/robot_ui_node.dir/robot_ui_node_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mazen/catkin_ws_covid19_robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object robot_ui/CMakeFiles/robot_ui_node.dir/robot_ui_node_autogen/mocs_compilation.cpp.o"
 	cd /home/mazen/catkin_ws_covid19_robot/build/robot_ui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robot_ui_node.dir/robot_ui_node_autogen/mocs_compilation.cpp.o -c /home/mazen/catkin_ws_covid19_robot/build/robot_ui/robot_ui_node_autogen/mocs_compilation.cpp
 
 robot_ui/CMakeFiles/robot_ui_node.dir/robot_ui_node_autogen/mocs_compilation.cpp.i: cmake_force
@@ -131,7 +155,7 @@ robot_ui/CMakeFiles/robot_ui_node.dir/robot_ui_node_autogen/mocs_compilation.cpp
 
 robot_ui/CMakeFiles/robot_ui_node.dir/robot_ui_node_autogen/MZE7F2ZD3O/qrc_resources.cpp.o: robot_ui/CMakeFiles/robot_ui_node.dir/flags.make
 robot_ui/CMakeFiles/robot_ui_node.dir/robot_ui_node_autogen/MZE7F2ZD3O/qrc_resources.cpp.o: robot_ui/robot_ui_node_autogen/MZE7F2ZD3O/qrc_resources.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mazen/catkin_ws_covid19_robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object robot_ui/CMakeFiles/robot_ui_node.dir/robot_ui_node_autogen/MZE7F2ZD3O/qrc_resources.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mazen/catkin_ws_covid19_robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object robot_ui/CMakeFiles/robot_ui_node.dir/robot_ui_node_autogen/MZE7F2ZD3O/qrc_resources.cpp.o"
 	cd /home/mazen/catkin_ws_covid19_robot/build/robot_ui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robot_ui_node.dir/robot_ui_node_autogen/MZE7F2ZD3O/qrc_resources.cpp.o -c /home/mazen/catkin_ws_covid19_robot/build/robot_ui/robot_ui_node_autogen/MZE7F2ZD3O/qrc_resources.cpp
 
 robot_ui/CMakeFiles/robot_ui_node.dir/robot_ui_node_autogen/MZE7F2ZD3O/qrc_resources.cpp.i: cmake_force
@@ -157,6 +181,7 @@ robot_ui/CMakeFiles/robot_ui_node.dir/robot_ui_node_autogen/MZE7F2ZD3O/qrc_resou
 robot_ui_node_OBJECTS = \
 "CMakeFiles/robot_ui_node.dir/qt_ui_ros/mainwindow.cpp.o" \
 "CMakeFiles/robot_ui_node.dir/qt_ui_ros/main.cpp.o" \
+"CMakeFiles/robot_ui_node.dir/qt_ui_ros/hellothread.cpp.o" \
 "CMakeFiles/robot_ui_node.dir/robot_ui_node_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/robot_ui_node.dir/robot_ui_node_autogen/MZE7F2ZD3O/qrc_resources.cpp.o"
 
@@ -165,6 +190,7 @@ robot_ui_node_EXTERNAL_OBJECTS =
 
 /home/mazen/catkin_ws_covid19_robot/devel/lib/robot_ui/robot_ui_node: robot_ui/CMakeFiles/robot_ui_node.dir/qt_ui_ros/mainwindow.cpp.o
 /home/mazen/catkin_ws_covid19_robot/devel/lib/robot_ui/robot_ui_node: robot_ui/CMakeFiles/robot_ui_node.dir/qt_ui_ros/main.cpp.o
+/home/mazen/catkin_ws_covid19_robot/devel/lib/robot_ui/robot_ui_node: robot_ui/CMakeFiles/robot_ui_node.dir/qt_ui_ros/hellothread.cpp.o
 /home/mazen/catkin_ws_covid19_robot/devel/lib/robot_ui/robot_ui_node: robot_ui/CMakeFiles/robot_ui_node.dir/robot_ui_node_autogen/mocs_compilation.cpp.o
 /home/mazen/catkin_ws_covid19_robot/devel/lib/robot_ui/robot_ui_node: robot_ui/CMakeFiles/robot_ui_node.dir/robot_ui_node_autogen/MZE7F2ZD3O/qrc_resources.cpp.o
 /home/mazen/catkin_ws_covid19_robot/devel/lib/robot_ui/robot_ui_node: robot_ui/CMakeFiles/robot_ui_node.dir/build.make
@@ -190,7 +216,7 @@ robot_ui_node_EXTERNAL_OBJECTS =
 /home/mazen/catkin_ws_covid19_robot/devel/lib/robot_ui/robot_ui_node: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.9.5
 /home/mazen/catkin_ws_covid19_robot/devel/lib/robot_ui/robot_ui_node: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.9.5
 /home/mazen/catkin_ws_covid19_robot/devel/lib/robot_ui/robot_ui_node: robot_ui/CMakeFiles/robot_ui_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mazen/catkin_ws_covid19_robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable /home/mazen/catkin_ws_covid19_robot/devel/lib/robot_ui/robot_ui_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mazen/catkin_ws_covid19_robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable /home/mazen/catkin_ws_covid19_robot/devel/lib/robot_ui/robot_ui_node"
 	cd /home/mazen/catkin_ws_covid19_robot/build/robot_ui && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/robot_ui_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -200,6 +226,7 @@ robot_ui/CMakeFiles/robot_ui_node.dir/build: /home/mazen/catkin_ws_covid19_robot
 
 robot_ui/CMakeFiles/robot_ui_node.dir/requires: robot_ui/CMakeFiles/robot_ui_node.dir/qt_ui_ros/mainwindow.cpp.o.requires
 robot_ui/CMakeFiles/robot_ui_node.dir/requires: robot_ui/CMakeFiles/robot_ui_node.dir/qt_ui_ros/main.cpp.o.requires
+robot_ui/CMakeFiles/robot_ui_node.dir/requires: robot_ui/CMakeFiles/robot_ui_node.dir/qt_ui_ros/hellothread.cpp.o.requires
 robot_ui/CMakeFiles/robot_ui_node.dir/requires: robot_ui/CMakeFiles/robot_ui_node.dir/robot_ui_node_autogen/mocs_compilation.cpp.o.requires
 robot_ui/CMakeFiles/robot_ui_node.dir/requires: robot_ui/CMakeFiles/robot_ui_node.dir/robot_ui_node_autogen/MZE7F2ZD3O/qrc_resources.cpp.o.requires
 

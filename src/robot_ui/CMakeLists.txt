@@ -149,6 +149,8 @@ add_executable(${PROJECT_NAME}_node
     ${CMAKE_CURRENT_SOURCE_DIR}/qt_ui_ros/mainwindow.h
     ${CMAKE_CURRENT_SOURCE_DIR}/qt_ui_ros/main.cpp   
     ${CMAKE_CURRENT_SOURCE_DIR}/qt_ui_ros/resources.qrc
+${CMAKE_CURRENT_SOURCE_DIR}/qt_ui_ros/hellothread.cpp
+${CMAKE_CURRENT_SOURCE_DIR}/qt_ui_ros/hellothread.h
 )
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
