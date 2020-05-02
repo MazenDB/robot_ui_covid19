@@ -53,7 +53,12 @@ CMAKE_BINARY_DIR = /home/mazen/catkin_ws_covid19_robot/build
 # Include the progress variables for this target.
 include robot_ui/CMakeFiles/robot_ui_node_autogen.dir/progress.make
 
-robot_ui/CMakeFiles/robot_ui_node_autogen: /home/mazen/catkin_ws_covid19_robot/src/robot_ui/qt_ui_ros/img/up.png
+robot_ui/CMakeFiles/robot_ui_node_autogen: /home/mazen/catkin_ws_covid19_robot/src/robot_ui/qt_ui_ros/img/ainlogo.png
+robot_ui/CMakeFiles/robot_ui_node_autogen: /home/mazen/catkin_ws_covid19_robot/src/robot_ui/qt_ui_ros/img/back.png
+robot_ui/CMakeFiles/robot_ui_node_autogen: /home/mazen/catkin_ws_covid19_robot/src/robot_ui/qt_ui_ros/img/front.png
+robot_ui/CMakeFiles/robot_ui_node_autogen: /home/mazen/catkin_ws_covid19_robot/src/robot_ui/qt_ui_ros/img/hospital.png
+robot_ui/CMakeFiles/robot_ui_node_autogen: /home/mazen/catkin_ws_covid19_robot/src/robot_ui/qt_ui_ros/img/left.png
+robot_ui/CMakeFiles/robot_ui_node_autogen: /home/mazen/catkin_ws_covid19_robot/src/robot_ui/qt_ui_ros/img/right.png
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mazen/catkin_ws_covid19_robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC, UIC and RCC for target robot_ui_node"
 	cd /home/mazen/catkin_ws_covid19_robot/build/robot_ui && /usr/bin/cmake -E cmake_autogen /home/mazen/catkin_ws_covid19_robot/build/robot_ui/CMakeFiles/robot_ui_node_autogen.dir ""
 

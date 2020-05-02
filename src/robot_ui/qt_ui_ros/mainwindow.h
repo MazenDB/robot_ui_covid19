@@ -17,5 +17,6 @@ public:
 
 private:
     Ui::MainWindow *ui;
+    bool eventFilter(QObject* o, QEvent* e);
 };
 #endif // MAINWINDOW_H

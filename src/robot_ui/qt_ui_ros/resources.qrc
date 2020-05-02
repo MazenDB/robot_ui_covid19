@@ -1,5 +1,10 @@
 <RCC>
     <qresource prefix="/resources">
-        <file>img/up.png</file>
+        <file>img/front.png</file>
+        <file>img/right.png</file>
+        <file>img/left.png</file>
+        <file>img/back.png</file>
+        <file>img/ainlogo.png</file>
+        <file>img/hospital.png</file>
     </qresource>
 </RCC>

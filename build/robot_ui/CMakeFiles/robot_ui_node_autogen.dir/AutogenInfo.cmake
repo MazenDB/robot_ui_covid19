@@ -34,6 +34,6 @@ set(AM_UIC_SEARCH_PATHS "")
 set(AM_RCC_SOURCES "/home/mazen/catkin_ws_covid19_robot/src/robot_ui/qt_ui_ros/resources.qrc")
 set(AM_RCC_BUILDS "/home/mazen/catkin_ws_covid19_robot/build/robot_ui/robot_ui_node_autogen/MZE7F2ZD3O/qrc_resources.cpp")
 set(AM_RCC_OPTIONS "{-name;resources}")
-set(AM_RCC_INPUTS "{/home/mazen/catkin_ws_covid19_robot/src/robot_ui/qt_ui_ros/img/up.png}")
+set(AM_RCC_INPUTS "{/home/mazen/catkin_ws_covid19_robot/src/robot_ui/qt_ui_ros/img/hospital.png;/home/mazen/catkin_ws_covid19_robot/src/robot_ui/qt_ui_ros/img/ainlogo.png;/home/mazen/catkin_ws_covid19_robot/src/robot_ui/qt_ui_ros/img/front.png;/home/mazen/catkin_ws_covid19_robot/src/robot_ui/qt_ui_ros/img/back.png;/home/mazen/catkin_ws_covid19_robot/src/robot_ui/qt_ui_ros/img/right.png;/home/mazen/catkin_ws_covid19_robot/src/robot_ui/qt_ui_ros/img/left.png}")
 # Configurations options
 set(AM_CONFIG_SUFFIX_ "_")
