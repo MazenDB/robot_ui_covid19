@@ -1,10 +1,15 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
 #include <QKeyEvent>
+#include <QDebug>
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
+    thread.start();
+
+    qDebug() << "hello from GUI thread ";
+
     ui->setupUi(this);
     QList<QWidget*> widgets = findChildren<QWidget*>();
     foreach (QWidget* widget, widgets)
@@ -26,18 +31,24 @@ bool MainWindow::eventFilter(QObject* o, QEvent* e)
         switch (k->key()) {
         case Qt::Key_Up:
             ui->status->setText("Moving Forward");
+            thread.stat="forward";
+//            stat=1;
             return true;
         case Qt::Key_Down:
             ui->status->setText("Moving Backward");
+            thread.stat="backward";
             return true;
         case Qt::Key_Left:
             ui->status->setText("Moving Left");
+            thread.stat="left";
             return true;
         case Qt::Key_Right:
             ui->status->setText("Moving Right");
+            thread.stat="right";
             return true;
         case Qt::Key_Space:
             ui->status->setText("Emergency Stop");
+            thread.stat="emergency";
             return true;
         }
     }
@@ -47,15 +58,19 @@ bool MainWindow::eventFilter(QObject* o, QEvent* e)
         switch (k->key()) {
         case Qt::Key_Up:
             ui->status->setText("Stopped");
+            thread.stat="stopped";
             return true;
         case Qt::Key_Down:
             ui->status->setText("Stopped");
+            thread.stat="stopped";
             return true;
         case Qt::Key_Left:
             ui->status->setText("Stopped");
+            thread.stat="stopped";
             return true;
         case Qt::Key_Right:
             ui->status->setText("Stopped");
+            thread.stat="stopped";
             return true;
         }
     }

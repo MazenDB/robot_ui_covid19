@@ -7,6 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export LD_LIBRARY_PATH="/opt/ros/melodic/lib"
-export PKG_CONFIG_PATH="/opt/ros/melodic/lib/pkgconfig"
 export PWD="/home/mazen/catkin_ws_covid19_robot/build"
